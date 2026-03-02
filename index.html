@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anisha Pawar | Interactive Portfolio</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>Anisha Pawar</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button id="darkToggle">🌙 Toggle Dark Mode</button>
+  </header>
+
+  <!-- About -->
+  <section id="about">
+    <h2>About Me</h2>
+    <img src="images/profile.jpeg" alt="Anisha Profile" class="profile-img">
+    <p>I am an MCA student passionate about Full Stack Development and Cloud Computing.</p>
+  </section>
+
+  <!-- Skills -->
+  <button id="toggleSkills">Hide Skills</button>
+
+  <section id="skills">
+    <h2>Technical Skills</h2>
+    <div class="skills-list">
+      <span>Python</span>
+      <span>SQL</span>
+      <span>React</span>
+      <span>Node.js</span>
+      <span>MongoDB</span>
+      <span>MERN Stack</span>
+    </div>
+  </section>
+
+  <!-- Mini To-Do -->
+  <section>
+    <h2>Mini To-Do List</h2>
+    <input type="text" id="todoInput" placeholder="Add a task">
+    <button id="addTask">Add Task</button>
+    <ul id="todoList"></ul>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+
+    <form id="contactForm">
+      <input type="text" id="name" placeholder="Full Name">
+      <input type="email" id="email" placeholder="Email Address">
+      <textarea id="message" placeholder="Your Message"></textarea>
+      <p id="formMessage"></p>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2026 Anisha Pawar | Week 3 JavaScript Project</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
